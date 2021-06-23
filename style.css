@@ -1,0 +1,40 @@
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header > div:first-child > img {
+  height: 50px;
+  margin-right: 10px;
+}
+header {
+  padding: 10px 20px 0 20px;
+  border-bottom: 1px solid black;
+}
+header > div:first-child {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+header > div:first-child > span {
+  font-size: 25px;
+}
+header > div:nth-child(2) > span {
+  font-size: 17px;
+  margin-right: 35px;
+  display: inline-block;
+  height: 30px;
+  position: relative;
+}
+header > div:nth-child(2) > span:last-child {
+  color: blue;
+}
+header > div:nth-child(2) > span > div {
+  background-color: blue;
+  height: 3px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}

@@ -36,9 +36,32 @@ $faq = [
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Faq</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+
+    </style>
 </head>
 
 <body>
+
+    <header>
+        <div>
+            <img src="https://loghi-famosi.com/wp-content/uploads/2020/09/Google-Logo.png" alt="Logo di Google">
+            <span>Privacy & Termini</span>
+        </div>
+        <div>
+            <span>Introduzione</span>
+            <span>Norme sulla privacy</span>
+            <span>Termini di servizio</span>
+            <span>Tecnologie</span>
+            <span>Domande frequenti
+                <div></div>
+            </span>
+        </div>
+    </header>
 
 </body>
 
