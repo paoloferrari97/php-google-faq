@@ -38,3 +38,17 @@ header > div:nth-child(2) > span > div {
   position: absolute;
   bottom: 0;
 }
+
+main {
+  padding: 100px 0;
+}
+.container {
+  width: 70%;
+  margin: auto;
+}
+.container > p {
+  margin-top: 20px;
+}
+.container > h2 {
+  margin-top: 40px;
+}

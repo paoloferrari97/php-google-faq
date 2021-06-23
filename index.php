@@ -63,6 +63,21 @@ $faq = [
         </div>
     </header>
 
+    <main>
+        <div class="container">
+            <?php foreach ($faq as $key => $value) { ?>
+            <h2>
+                <?php echo $key; ?>
+            </h2>
+            <?php foreach ($value as $value2) { ?>
+            <p>
+                <?php echo $value2; ?>
+            </p>
+            <?php } ?>
+            <?php } ?>
+        </div>
+    </main>
+
 </body>
 
 </html>
