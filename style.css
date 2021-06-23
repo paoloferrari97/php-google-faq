@@ -52,3 +52,8 @@ main {
 .container > h2 {
   margin-top: 40px;
 }
+
+footer {
+  background-color: lightgray;
+  height: 30px;
+}
